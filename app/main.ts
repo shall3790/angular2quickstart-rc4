@@ -3,7 +3,7 @@ import { bootstrap }            from '@angular/platform-browser-dynamic';
 import { AppComponent }         from './app.component';
 import { appRouterProviders }   from './app.routes';
 // Add these symbols to override the `LocationStrategy`
-import { 
+import {
     LocationStrategy,
     HashLocationStrategy 
 }                               from '@angular/common';
